@@ -1,0 +1,115 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.Webpage6{
+		padding-bottom: 200px;
+}
+	.Webpage6 img{
+		position:absolute;
+		padding-left: 70px;
+		padding-top: 50px;
+		z-index:-1;
+		
+	}
+	.title{
+	text-align: center; 
+	color: black;
+	font-size: 60px;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: bold;
+	}
+#team1 .member .pic img {
+  max-width: 100%;
+}
+@media(max-width:1024px){
+	.title{
+		font-size: 50px;
+	}
+	#team .member .pic img {
+ 		 max-width: 100%;
+}
+}
+@media(max-width:768px){
+	.title{
+		font-size: 40px;
+	}
+	#team1 .member .pic img {
+  		max-width: 78%;
+}
+}
+@media(max-width:767px){
+	#team .member .pic img {
+  		max-width: 50%;
+}
+}
+@media(max-width:426px){
+	.title{
+		font-size: 30px;
+	}
+	#team .member .pic img {
+  		max-width: 65%;
+}
+}
+@media(max-width:376px){
+	.title{
+		font-size: 30px;
+	}
+	#team1 .member .pic img {
+  		max-width: 75%;
+}
+}
+@media(max-width:321px){
+	.title{
+		font-size: 30px;
+	}
+	#team1 .member .pic img {
+  		max-width: 89%;
+}
+}
+	#team1 {
+  background: #fff;
+  padding: 80px 0 60px 0;
+}
+
+#team1 .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#team1 .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+}
+
+#team1 .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+#team1 .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+#team1 .member .social {
+  margin-top: 15px;
+}
+
+#team1 .member .social a {
+  color: #b3b3b3;
+}
+
+#team1 .member .social a:hover {
+  color: #2dc997;
+}
+
+#team1 .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+.img-fluid{
+	min-width:100%;
+	height:auto;
+}

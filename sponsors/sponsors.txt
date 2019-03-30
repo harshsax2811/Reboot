@@ -1,0 +1,11 @@
+<!DOCTYPE.html>
+<html>
+<head>
+<title>Webpage</title>
+<link rel="stylesheet" type="text/css" href="spon.css">
+</head>
+<body>
+<div class="head">
+<h2>Sponsors</h2>
+</div>
+</body>
